@@ -1,3 +1,39 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+
 body{
     background-color: aqua;
 }
+
+.kaitlente{
+display:grid;
+border: 1px springgreen;
+}
+
+.kaitlente> .top{
+    display: inline-block;
+    padding: 20px;
+}
+.kaitlente> .top> .skyle {
+    display:left;
+    width: 100px;
+    height: 100px;
+    border: 2x saddlebrown;
+    background-color: bisque;
+    border-radius: 50%;
+}
+.kaitlente>.bottom{
+    display: flex;
+}
+.kaitlente>.bottom>.jungiklis{
+    display: flex;
+    padding: 10px 20px;
+}
+
